@@ -12,3 +12,51 @@ img,
 video {
   display: block;
 }
+
+.call_to_actions {
+  margin: 40px;
+  font-family: lato;
+}
+
+.inscription {
+  display: flex;
+  width: 300px;
+  height: 80px;
+  transform: rotate(-4deg);
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  background: #F124F2;
+  box-shadow: 0px 7px 0px 0px #A819A8;
+  color: white;
+
+  margin-bottom: 50.19;
+}
+
+.newsletter {
+  display: flex;
+  width: 320px;
+  height: 70px;
+  transform: rotate(6deg);
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  border-radius: 35px;
+background: #684BD4;
+color: white;
+margin-bottom: 36.93;
+}
+
+.add_to_cart {
+  display: inline-flex;
+  padding: 25px 30px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+
+  background: #00B47E;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  color: white;
+}
